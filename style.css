@@ -38,7 +38,7 @@ nav ul{
 }
 .content{
     text-align: center;
-    margin: 158px;
+    margin: 145px;
     
    
 
@@ -52,12 +52,13 @@ nav ul{
 
 .button2{
     background-color: rgb(138, 135, 236);
-    color: rgba(255, 255, 255, 1);
-    margin-top: 38px;
+    color: rgba(255, 255, 255, 1);   
+    margin-bottom: 10px;
     border-radius: 10px;
     font-size: 16px;
     background-color:#4E47FF;
     padding: 15px 20px 15px;
+    
     
    
 
@@ -68,39 +69,39 @@ nav ul{
 
 }
 
-.action-image, .focus-image {
+.second-image, .focus-image {
     flex: 1;
 }
 
-.action-image img, .focus-image img {
-    max-width: 100%; /* Makes images responsive */
-    height: auto; /* Maintains aspect ratio */
+.second-image img, .focus-image img {
+    max-width: 100%;
+    height: auto; 
     border-radius: 50px;
     display: block;
     margin-left: 100px;
 }
 
-/* Action Section */
-.container {
+
+.pic {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 15px 20px;
 }
-.action {
-    padding: 60px 0;
+.second {
+    padding: 30px 0;
 }
 
-.action .container {
+.second .pic {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.action-text {
+.second-text {
     flex: 1;
 }
 
-.learn-more-btn {
+.LLP {
     background-color: #4a5aef;
     color: white;
     padding: 10px 20px;
@@ -109,4 +110,32 @@ nav ul{
     font-weight: bold;
     display: inline-block;
     margin-top: 20px;
+}
+
+.third {
+    padding: 40px 0;
+}
+
+.third .pic {
+    background-color: #e9eafde0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.amount{
+    text-align: center;
+}
+
+.third-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4a5aef;
+    margin: 0;
+}
+
+.third-label {
+    margin: 5px 0 0;
+    color: #555;
 }
