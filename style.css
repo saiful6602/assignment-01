@@ -264,3 +264,28 @@ input, textarea {
     margin-top: 20px;
     text-align: center;
 }
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 80px;
+    font-weight: 800;
+    color: #4a5aef;
+    margin-bottom: 10px;
+    
+}
+
+footer .tagline {
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+}
+
+.footer-nav a {
+    
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
