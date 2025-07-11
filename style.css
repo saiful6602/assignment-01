@@ -58,6 +58,7 @@ nav ul{
     font-size: 16px;
     background-color:#4E47FF;
     padding: 15px 20px 15px;
+    cursor:pointer;
     
     
    
@@ -113,31 +114,47 @@ nav ul{
 }
 
 .third {
-    padding: 40px 0;
+    padding: 30px 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #E5E7FF;
+    text-align: center;
+    border-radius: 20px;
 }
 
-.third .pic {
-    background-color: #e9eafde0;
-    border-radius: 10px;
+.third.pic {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.third h2 {
+    font-size: 32px;
+    margin-bottom: 50px; 
+    color: #2c3e50;
+    font-weight: 600;
+}
+.third-grid {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    align-items: center;
+    gap: 20px; 
 }
 
-.amount{
+.amount {
     text-align: center;
 }
 
 .third-number {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 46px;
+    font-weight: 700;
     color: #4a5aef;
     margin: 0;
 }
 
 .third-label {
-    margin: 5px 0 0;
+    margin-top: 10px;
     color: #555;
+    font-size: 16px;
 }
 
 .fourth {
@@ -163,6 +180,33 @@ nav ul{
 .fourth-card p1{
     font-weight: lighter;
 
+}
+.reviewer-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reviewer-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 15px;
+}
+
+.reviewer-info p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #666;
+}
+
+.review-date {
+    font-size: 0.9em;
+    color: #ccc;
 }
 
 .rating {
