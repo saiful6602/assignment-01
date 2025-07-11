@@ -67,3 +67,46 @@ nav ul{
      background-color: rgb(138, 135, 236);
 
 }
+
+.action-image, .focus-image {
+    flex: 1;
+}
+
+.action-image img, .focus-image img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50px;
+    display: block;
+    margin-left: 100px;
+}
+
+/* Action Section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px 20px;
+}
+.action {
+    padding: 60px 0;
+}
+
+.action .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.action-text {
+    flex: 1;
+}
+
+.learn-more-btn {
+    background-color: #4a5aef;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
