@@ -139,3 +139,62 @@ nav ul{
     margin: 5px 0 0;
     color: #555;
 }
+
+.fourth {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.fourth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.fourth-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.rating {
+    color: #fbbc05;
+}
+.get-started {
+    background-color: #4a5aef;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.focus {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.focus .pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.focus-image {
+    margin-top: 20px;
+    margin-left: 160px;
+    width: 100%;
+}
+.focus h2{
+    font-size: 60px;
+    margin-bottom: 0px;
+
+}
+.focus p{
+    font-size: 20px;
+    margin-top: 0px;
+}
